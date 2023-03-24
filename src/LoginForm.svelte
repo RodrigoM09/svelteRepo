@@ -109,6 +109,9 @@
     <button type="submit">
       {#if isLoading}Logging in...{:else}Log in 🔒{/if}
     </button>
+    <button type="submit">
+        Register
+    </button>
 
     {#if Object.keys(errors).length > 0}
       <ul class="errors">
